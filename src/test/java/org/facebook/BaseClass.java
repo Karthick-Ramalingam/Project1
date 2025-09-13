@@ -109,5 +109,7 @@ public class BaseClass {
 	public static void drag(WebElement from,WebElement to) {
 		a =new Actions(driver);
 		a.dragAndDrop(from, to);
+		System.out.println("test-1");
 	}
+	
 }
